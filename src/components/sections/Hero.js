@@ -61,11 +61,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Your problems our <span className="text-color-primary">solutions</span>
+              <span className="text-color-primary">Cloud Native IT Solutions</span> Designed for You
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Animo Labs is a a team of experienced Software Engineers based out of New Delhi, India. We have over the years focused our expertise on creating End-to-End technology solutions for various businesses around the world.
+                From cloud computing to app development to IT governance, we will help you transform your business by finding the right cloud solutions for your needs. 
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="500">
                 <ButtonGroup>
