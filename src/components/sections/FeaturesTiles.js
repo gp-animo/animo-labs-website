@@ -63,8 +63,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
+                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      alt="Experts"
                       width={64}
                       height={64} />
                   </div>
@@ -85,7 +85,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                     SERVICES
                     </h4>
                   <p className="m-0 text-sm">
-                    We do ALL Things Digital
+                    We do All Things Digital
                     </p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 04"
                       width={64}
                       height={64} />
@@ -173,7 +173,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
                       alt="Features tile icon 06"
                       width={64}
                       height={64} />
@@ -184,7 +184,7 @@ const FeaturesTiles = ({
                     PORTFOLIO
                     </h4>
                   <p className="m-0 text-sm">
-                    Our Clients speak for US
+                    Our Clients speak for Us
                     </p>
                 </div>
               </div>

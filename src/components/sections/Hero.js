@@ -65,11 +65,11 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                From cloud computing to app development to IT governance, we will help you transform your business by finding the right cloud solutions for your needs. 
+                From cloud computing to app development to IT automation, we will help you transform your business by finding the right cloud solutions for your needs.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="500">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/#/contact-us">
+                  <Button tag="a" color="primary" wideMobile href="#contact-us">
                     Contact Us
                     </Button>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">

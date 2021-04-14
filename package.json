@@ -2,7 +2,7 @@
   "name": "open-react-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gpsinghsandhu.github.io/landing",
+  "homepage": "http://animolabs.com",
   "dependencies": {
     "@types/node-sass": "^4.11.1",
     "classnames": "^2.2.6",

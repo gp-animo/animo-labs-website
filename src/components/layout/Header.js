@@ -85,10 +85,11 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo /> Animo Labs
+          <Logo />
+          <a href="https://animolabs.com">Animo Labs</a>
           {!hideNav &&
             <>
-              <button
+              {/* <button
                 ref={hamburger}
                 className="header-nav-toggle"
                 onClick={isActive ? closeMenu : openMenu}
@@ -97,7 +98,7 @@ const Header = ({
                 <span className="hamburger">
                   <span className="hamburger-inner"></span>
                 </span>
-              </button>
+              </button> */}
               <nav
                 ref={nav}
                 className={
@@ -105,15 +106,15 @@ const Header = ({
                     'header-nav',
                     isActive && 'is-active'
                   )}>
-                <div className="header-nav-inner">
+                {/* <div className="header-nav-inner">
                   <ul className={
                     classNames(
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    {/* <li>
+                    <li>
                       <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li> */}
+                    </li>
                   </ul>
                   {!hideSignin &&
                     <ul
@@ -123,7 +124,7 @@ const Header = ({
                         <Link to="/" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Contact</Link>
                       </li>
                     </ul>}
-                </div>
+                </div> */}
               </nav>
             </>}
         </div>

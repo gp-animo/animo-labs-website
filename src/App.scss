@@ -1,0 +1,15 @@
+.brag-section-inner {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.button-primary.button-primary-inverted {
+  background-color: #ECEDED;
+  color: #6163FF;
+}
+
+@include media('>medium') {
+  .contact-us-cta-button {
+    min-width: 220px;
+  }
+}

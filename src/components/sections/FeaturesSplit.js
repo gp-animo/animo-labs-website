@@ -50,7 +50,7 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Our Specialties',
+    title: 'Our Services',
     paragraph: null
   };
 
@@ -65,41 +65,6 @@ const FeaturesSplit = ({
           <div className={splitClasses}>
 
             <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Robust Apps
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Mobile App Development
-                  </h3>
-                <p className="m-0">
-                  Animo Labs is a leading mobile app development company, with expertise in mobile application strategy planning, stunning design and impeccable development services for iPhone, Android, Windows, Swift and Cross platforms. From simple to complex, we don't just build mobile apps, we build mobile experiences. 
-                  </p>
-                <p className="m-0">
-                    Our comprehensive range of mobile app development services include everything from consulting, UX/UI designing, developing, launching to managing your app after deployment. We build apps for B2E, B2B, and B2C processes.
-                  </p>
-                <ul className="text-color-high fw-600">
-                  <li>Android App Development</li>
-                  <li>React Native App Development</li>
-                  <li>iPhone App Development</li>
-                  <li>iPad App Development</li>
-                  </ul>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
-            <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Responsive Websites
@@ -107,9 +72,9 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12">
                   Web Application Development
                   </h3>
-                <p className="m-0">
+                {/* <p className="m-0">
                   Think big to achieve big! Anything is possible when you partner with the leading web application development company – Animo Labs. With advanced technologies, proven methodologies and creative experts, we provide custom web application development services that facilitate business transformation.
-                  </p>
+                  </p> */}
                 <p className="m-0">
                   As a web application development company, we understand every business has unique requirements. Our experienced developers have deep expertise in developing custom web apps for enterprises, eCommerce stores, financial organizations, start-ups, and other industries. We handle the entire web app development process, from designing, HTML, coding, programming, testing to deployment.
                   </p>
@@ -130,6 +95,41 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/features-split-image-02.png')}
                   alt="Features split 02"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Robust Apps
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Mobile App Development
+                  </h3>
+                <p className="m-0">
+                  Animo Labs is a leading mobile app development company, with expertise in mobile application strategy planning, stunning design and impeccable development services for Android, iPhone and Cross platforms. From simple to complex, we don't just build mobile apps, we build mobile experiences.
+                  </p>
+                {/* <p className="m-0">
+                    Our comprehensive range of mobile app development services include everything from consulting, UX/UI designing, developing, launching to managing your app after deployment. We build apps for B2E, B2B, and B2C processes.
+                  </p> */}
+                <ul className="text-color-high fw-600">
+                  <li>Android App Development</li>
+                  <li>React Native App Development</li>
+                  <li>iPhone App Development</li>
+                  <li>iPad App Development</li>
+                  </ul>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-01.png')}
+                  alt="Features split 01"
                   width={528}
                   height={396} />
               </div>
@@ -185,9 +185,9 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12">
                   Emerging Technologies
                   </h3>
-                <p className="m-0">
+                {/* <p className="m-0">
                   Business growth is fueled by incorporating new and emerging technologies in business processes. With customized emerging information technology services, Animo Labs has helped both small companies and large enterprises to achieve greater productivity and business agility. Let's leverage the power of digital emerging technologies together!
-                  </p>
+                  </p> */}
                 <p className="m-0">
                   At Animo Labs, we pride ourselves on being at the forefront of IT technology and innovation. We empower our clients with ideas and strategies to leverage emerging technologies, such as IoT, Big Data, Machine Learning, Cloud Computing and more, to drive transformational growth of your business. Our emerging technology services will let you embrace opportunities, enhance customer engagement and tap into new markets.
                   </p>
@@ -217,50 +217,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Managed End-to-End
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  CMS and E-Commerce
-                  </h3>
-                <p className="m-0">
-                  A Content Management System (CMS) allows you to manage the content on your website the way you want. Choose Source Soft Solutions as your CMS web development company and increase profitability, revolutionize customer service and reduce overhead costs. Our impeccable range of customized eCommerce CMS development services include custom module development, theme development, check-out page designing, payment gateway integration and more on a well-designed responsive website.
-                  </p>
-                <p className="m-0">
-                  Start-up or established, large or small, simple or complex, we can customize CMS and eCommerce solutions to help you improve your business ROI.
-                  </p>
-                <ul className="text-color-high fw-600">
-                  <li>Magento Development</li>
-                  <li>WordPress Website Development</li>
-                  <li>Drupal eCommerce Development</li>
-                  <li>Joomla Website Development</li>
-                  <li>Shopify Store Development</li>
-                  <li>OpenCart Website Development</li>
-                  </ul>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Automated IT
                   </div>
                 <h3 className="mt-0 mb-12">
                   Managed IT
                   </h3>
                 <p className="m-0">
-                  Imagine having the ability to leave your office every evening, knowing that the security and continuity of your company are in good hands. Animo Labs’ IT Managed Services do just that - 24/7.
+                  Imagine having the ability to leave your office every evening, knowing that the security and continuity of your company are in good hands. Animo Labs’ IT Managed Services do just that - 24/7. 
                   </p>
               </div>
               <div className={

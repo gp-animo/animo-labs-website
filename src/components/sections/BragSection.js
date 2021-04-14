@@ -50,15 +50,15 @@ const BragSection = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div className="container font-">
         <div className={innerClasses}>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
-          <h3 className="center-content">
+          <h4 className="center-content">
             Tired of paying the big dollars to the big top 5 consulting firms for your architecture services and only getting mixed results?
-            </h3>
-          <h3 className="center-content">
+            </h4>
+          <h4 className="center-content">
             Contact us and let us show you how we can help you get ahead in your IT architecture
-          </h3>
+          </h4>
         </div>
       </div>
     </section>

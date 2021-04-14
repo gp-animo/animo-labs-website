@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from "react-router-dom";
-import { createHashHistory } from "history";
+import { createHashHistory, createBrowserHistory } from "history";
 
 import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
-//import './App.css';
 import './assets/scss/style.scss';
+// import './App.scss';
+// import './assets/scss/app.scss';
 
-const history = createHashHistory();
+// const history = createHashHistory();
+const history = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={history}>
