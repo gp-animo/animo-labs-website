@@ -5,6 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import SmoothScroll from '../elements/SmoothScroll';
 
 const propTypes = {
   ...SectionProps.types
@@ -71,9 +72,11 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="500">
                 <ButtonGroup>
                   {/* <Button tag="a" color="primary" wideMobile href="#contact-us"> */}
-                  <Button color="primary" wideMobile onClick={onContactUs}>
-                    Contact Us
+                  <SmoothScroll to="contact-us">
+                    <Button color="primary" wideMobile>
+                      Contact Us
                     </Button>
+                  </SmoothScroll>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
                     </Button> */}
