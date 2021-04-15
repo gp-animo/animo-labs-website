@@ -22,6 +22,7 @@ const Hero = ({
   bottomDivider,
   hasBgColor,
   invertColor,
+  onContactUs,
   ...props
 }) => {
 
@@ -69,7 +70,8 @@ const Hero = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="500">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#contact-us">
+                  {/* <Button tag="a" color="primary" wideMobile href="#contact-us"> */}
+                  <Button color="primary" wideMobile onClick={onContactUs}>
                     Contact Us
                     </Button>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
@@ -79,7 +81,7 @@ const Hero = ({
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="10px" data-reveal-delay="800" data-reveal-offset="120">
             <a
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"

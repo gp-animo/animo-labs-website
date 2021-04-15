@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from "react-router-dom";
+import smoothscroll from 'smoothscroll-polyfill';
+
 import { createHashHistory, createBrowserHistory } from "history";
 
 import App from './App';
@@ -9,6 +11,8 @@ import App from './App';
 import './assets/scss/style.scss';
 // import './App.scss';
 // import './assets/scss/app.scss';
+
+smoothscroll.polyfill();
 
 // const history = createHashHistory();
 const history = createBrowserHistory();
