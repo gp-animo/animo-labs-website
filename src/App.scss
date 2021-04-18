@@ -9,7 +9,98 @@
 }
 
 @include media('>medium') {
-  .contact-us-cta-button {
-    min-width: 220px;
+  .cta-action {
+    min-width: 270px;
   }
+}
+
+.technologies-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+  .technology-wrapper {
+    padding: 10px 10px;
+    width: 260px;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    border-radius: 2px;
+    border: 1px solid #717D86;
+    overflow: scroll;
+    width: 260px;
+
+    .title {
+      font-weight: bold;
+      text-align: center;
+      font-size: 18px;
+      color: #ECEDED;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 5px;
+    }
+
+    .list {
+      font-size: 16px;
+      max-height: 246px;
+      overflow: scroll;
+    }
+
+    ul {
+      margin-bottom: 10px;
+    }
+
+    li {
+      margin-bottom: 1px;
+    }
+  }
+}
+
+.service-list {
+  margin-bottom: 0;
+  font-size: 16px;
+
+  li {
+    margin-bottom: 2px;
+  }
+}
+
+.cta-action {
+  background-color: white;
+  padding: 10px;
+  border-radius: 1px;
+
+  .email-button .button {
+    margin-bottom: 5px;
+  }
+}
+
+.contact-info {
+  font-size: 16px;
+  color: #5d656b;
+  text-align: left;
+
+  .phone-a:hover {
+    text-decoration: underline;
+  }
+  
+  a {
+    color: #5d656b;
+  }
+
+  .phone svg {
+    margin-top: -2px;
+  }
+
+  svg {
+    width: 18px;
+    fill: #6163FF;
+    display: inline;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+}
+
+.contact-us-cta-button {
+  width: 100%;
 }

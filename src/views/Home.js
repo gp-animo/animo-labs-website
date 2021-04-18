@@ -6,6 +6,7 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 import BragSection from '../components/sections/BragSection'
+import TechnologySection from '../components/sections/TechonologySection';
 
 const Home = () => {
   const contactUs = useRef(null);
@@ -21,6 +22,7 @@ const Home = () => {
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <BragSection topDivider />
       <FeaturesTiles topDivider />
+      <TechnologySection topDivider bottomDivider/>
       {/* <Testimonial topDivider /> */}
       <span className="cta-wrapper" ref={contactUs}>
         <Cta split />

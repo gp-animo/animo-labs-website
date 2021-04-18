@@ -54,6 +54,24 @@ const FeaturesSplit = ({
     paragraph: null
   };
 
+  const features = {
+    webApplicationDevelopment: ["Java Application Development", "Node.js Application Development", "Python Application Development", "React Application Development", "Angular Application Development", "Spring Boot Application Development", "PHP Application Development"],
+    mobileApplicationDevelopment: ["Android App Development", "iOS / iPadOS App Development", "Cross Platform App Development"],
+    cloudSolutions: ["Serverless","Kubernetes","AWS/Azure/GCP","DevOps","Integration"],
+    emergingTechnologies: ["Machine Learning Consulting", "Big Data Analytics Services", "Internet of Things (IoT) Technology", "Cloud Computing Consulting", "AR App Development"],
+    managedIt: []
+  }
+
+  function createServiceList(list) {
+    return (
+      <ul className="service-list text-color-high fw-600">
+        {list.map((l, index) => {
+          return <li key={index}>{l}</li>
+        })}
+      </ul>
+    );
+  }
+
   return (
     <section
       {...props}
@@ -78,13 +96,7 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   As a web application development company, we understand every business has unique requirements. Our experienced developers have deep expertise in developing custom web apps for enterprises, eCommerce stores, financial organizations, start-ups, and other industries. We handle the entire web app development process, from designing, HTML, coding, programming, testing to deployment.
                   </p>
-                <ul className="text-color-high fw-600">
-                  <li>Angular Application Development</li>
-                  <li>React Application Development</li>
-                  <li>Node.js Application Development</li>
-                  <li>Java Application Development</li>
-                  <li>Python Application Development</li>
-                  </ul>
+                {createServiceList(features.webApplicationDevelopment)}
               </div>
               <div className={
                 classNames(
@@ -114,12 +126,7 @@ const FeaturesSplit = ({
                 {/* <p className="m-0">
                     Our comprehensive range of mobile app development services include everything from consulting, UX/UI designing, developing, launching to managing your app after deployment. We build apps for B2E, B2B, and B2C processes.
                   </p> */}
-                <ul className="text-color-high fw-600">
-                  <li>Android App Development</li>
-                  <li>React Native App Development</li>
-                  <li>iPhone App Development</li>
-                  <li>iPad App Development</li>
-                  </ul>
+                {createServiceList(features.mobileApplicationDevelopment)}
               </div>
               <div className={
                 classNames(
@@ -152,16 +159,7 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   Talk to us if you need help with:
                   </p>
-                <ul className="text-color-high fw-600">
-                  <li>Cloud Services</li>
-                  <li>Service Bus</li>
-                  <li>Storage</li>
-                  <li>Kubernetes</li>
-                  <li>Redis Cache</li>
-                  <li>SQL Databases</li>
-                  <li>Active Directory</li>
-                  <li>Virtual Networks / Hybrid Cloud</li>
-                  </ul>
+                {createServiceList(features.cloudSolutions)}
               </div>
               <div className={
                 classNames(
@@ -191,14 +189,7 @@ const FeaturesSplit = ({
                 <p className="m-0">
                   At Animo Labs, we pride ourselves on being at the forefront of IT technology and innovation. We empower our clients with ideas and strategies to leverage emerging technologies, such as IoT, Big Data, Machine Learning, Cloud Computing and more, to drive transformational growth of your business. Our emerging technology services will let you embrace opportunities, enhance customer engagement and tap into new markets.
                   </p>
-                <ul className="text-color-high fw-600">
-                  <li>Apple Watch App Development</li>
-                  <li>AR App Development</li>
-                  <li>Big Data Analytics Services</li>
-                  <li>Cloud Computing Consulting</li>
-                  <li>Internet of Things (IoT) Technology</li>
-                  <li>Machine Learning Consulting</li>
-                  </ul>
+                {createServiceList(features.emergingTechnologies)}
               </div>
               <div className={
                 classNames(

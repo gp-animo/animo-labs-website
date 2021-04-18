@@ -86,7 +86,7 @@
 			padding-bottom: $split-item--padding-v__desktop / 2;
 			flex-direction: row;
 			flex-wrap: nowrap;
-			align-items: center;
+			// align-items: center;
 			justify-content: flex-start;
 
 			.split-item-content {
@@ -98,6 +98,7 @@
 
 			.split-item-image {
 				min-width: ($container--width-sm / 2) - $split-item-image--padding-h;
+				padding-top: 30px;
 			}
 		}
 
