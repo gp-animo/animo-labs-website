@@ -41,7 +41,7 @@ const TechnologySection = ({
   );
 
   const sectionHeader = {
-    title: 'Technologies We Use',
+    title: 'Our Expertise',
     paragraph: ''
   }
 
@@ -85,12 +85,12 @@ const TechnologySection = ({
       levels: 1,
       title: "Big Data",
       data: ["HBase", "Hadoop", "HDFS", "Oozie"]
-    },
-    {
-      levels: 1,
-      title: "Analytics",
-      data: ["Google Analytics"]
     }
+    // {
+    //   levels: 1,
+    //   title: "Analytics",
+    //   data: ["Google Analytics"]
+    // }
   ]
 
   return (

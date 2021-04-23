@@ -28,7 +28,7 @@ const FeaturesSplit = ({
 }) => {
 
   const outerClasses = classNames(
-    'features-split section',
+    'services-section features-split section',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -100,12 +100,13 @@ const FeaturesSplit = ({
               </div>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
+                  'split-item-image center-content-mobile reveal-from-bottom flip-image',
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/web-dev.svg')}
+                  className="services-images"
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -135,7 +136,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/mobile-dev.svg')}
+                  className="services-images"
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -168,7 +170,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/cloud-solutions.svg')}
+                  className="services-images"
                   alt="Features split 03"
                   width={528}
                   height={396} />
@@ -198,7 +201,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/emerging-tech.svg')}
+                  className="services-images"
                   alt="Features split 03"
                   width={528}
                   height={396} />
@@ -219,12 +223,13 @@ const FeaturesSplit = ({
               </div>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
+                  'split-item-image center-content-mobile reveal-from-bottom flip-image',
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/managed-it.svg')}
+                  className="services-images"
                   alt="Features split 03"
                   width={528}
                   height={396} />
