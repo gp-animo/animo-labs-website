@@ -86,7 +86,7 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
           <Logo />
-          <a href="https://animolabs.com">Animo Labs</a>
+          <a href="/">Animo Labs</a>
           {!hideNav &&
             <>
               {/* <button

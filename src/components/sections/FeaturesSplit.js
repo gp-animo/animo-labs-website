@@ -105,7 +105,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/web-dev.svg')}
+                  src={require('./../../assets/images/web-dev.svg').default}
                   className="services-images"
                   alt="Features split 02"
                   width={528}
@@ -136,7 +136,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/mobile-dev.svg')}
+                  src={require('./../../assets/images/mobile-dev.svg').default}
                   className="services-images"
                   alt="Features split 01"
                   width={528}
@@ -170,7 +170,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/cloud-solutions.svg')}
+                  src={require('./../../assets/images/cloud-solutions.svg').default}
                   className="services-images"
                   alt="Features split 03"
                   width={528}
@@ -201,7 +201,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/emerging-tech.svg')}
+                  src={require('./../../assets/images/emerging-tech.svg').default}
                   className="services-images"
                   alt="Features split 03"
                   width={528}
@@ -228,7 +228,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/managed-it.svg')}
+                  src={require('./../../assets/images/managed-it.svg').default}
                   className="services-images"
                   alt="Features split 03"
                   width={528}

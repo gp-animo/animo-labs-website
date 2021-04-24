@@ -1,5 +1,5 @@
 {
-  "name": "open-react-template",
+  "name": "animo-labs-landing",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://animolabs.com",
@@ -8,11 +8,11 @@
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "4.0.3"
   },
   "repository": {
     "type": "git",
