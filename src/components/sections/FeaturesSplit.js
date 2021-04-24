@@ -100,7 +100,7 @@ const FeaturesSplit = ({
               </div>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom flip-image',
+                  'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
@@ -223,7 +223,7 @@ const FeaturesSplit = ({
               </div>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom flip-image',
+                  'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
