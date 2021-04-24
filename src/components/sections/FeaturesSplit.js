@@ -107,7 +107,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/web-dev.svg').default}
                   className="services-images"
-                  alt="Features split 02"
+                  alt="Web Development Image"
                   width={528}
                   height={396} />
               </div>
@@ -138,7 +138,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/mobile-dev.svg').default}
                   className="services-images"
-                  alt="Features split 01"
+                  alt="Mobile Development Image"
                   width={528}
                   height={396} />
               </div>
@@ -172,7 +172,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/cloud-solutions.svg').default}
                   className="services-images"
-                  alt="Features split 03"
+                  alt="Cloud Solutions Image"
                   width={528}
                   height={396} />
               </div>
@@ -203,7 +203,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/emerging-tech.svg').default}
                   className="services-images"
-                  alt="Features split 03"
+                  alt="Emerging Tech"
                   width={528}
                   height={396} />
               </div>
@@ -230,7 +230,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/managed-it.svg').default}
                   className="services-images"
-                  alt="Features split 03"
+                  alt="Managed IT Image"
                   width={528}
                   height={396} />
               </div>

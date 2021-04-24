@@ -64,7 +64,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-04.svg').default}
-                      alt="Experts"
+                      alt="People Logo Image"
                       width={64}
                       height={64} />
                   </div>
@@ -86,7 +86,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-06.svg').default}
-                      alt="Features tile icon 02"
+                      alt="Approach Logo Image"
                       width={64}
                       height={64} />
                   </div>
@@ -108,7 +108,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-03.svg').default}
-                      alt="Features tile icon 03"
+                      alt="Services Logo Image"
                       width={64}
                       height={64} />
                   </div>
@@ -130,7 +130,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg').default}
-                      alt="Features tile icon 04"
+                      alt="Passion Logo Image"
                       width={64}
                       height={64} />
                   </div>
@@ -152,7 +152,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-05.svg').default}
-                      alt="Features tile icon 05"
+                      alt="Quality Logo Image"
                       width={64}
                       height={64} />
                   </div>
@@ -174,7 +174,7 @@ const FeaturesTiles = ({
                   <div className="features-tiles-item-image mb-16">
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-02.svg').default}
-                      alt="Features tile icon 06"
+                      alt="Portfolio Logo Image"
                       width={64}
                       height={64} />
                   </div>
