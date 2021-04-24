@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from "react-router-dom";
 
-import { createHashHistory, createBrowserHistory } from "history";
+import { createBrowserHistory } from "history";
 
 import App from './App';
 // import * as serviceWorker from './serviceWorker';

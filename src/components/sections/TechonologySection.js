@@ -103,7 +103,6 @@ const TechnologySection = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className="technologies-wrapper">
             {technologies.map((technology, index) => {
-              console.log(technology.title);
               return (
                 <div className="technology-wrapper" key={index}>
                   <div className="title">

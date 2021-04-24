@@ -24,7 +24,7 @@ const App = () => {
   let location = useLocation();
 
   useEffect(() => {
-    const page = location.pathname;
+    // const page = location.pathname;
     document.body.classList.add('is-loaded')
     childRef.current.init();
     // trackPage(page);

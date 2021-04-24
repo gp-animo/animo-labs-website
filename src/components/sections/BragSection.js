@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import SectionHeader from './partials/SectionHeader';
+// import SectionHeader from './partials/SectionHeader';
 
 const propTypes = {
   children: PropTypes.node,
@@ -40,10 +40,10 @@ const BragSection = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const sectionHeader = {
-    title: '',
-    paragraph: 'Contact us and let us show you how we can help you get ahead in your IT architecture'
-  }
+  // const sectionHeader = {
+  //   title: '',
+  //   paragraph: 'Contact us and let us show you how we can help you get ahead in your IT architecture'
+  // }
 
   return (
     <section
