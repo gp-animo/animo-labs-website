@@ -107,9 +107,7 @@ const FeaturesSplit = ({
                 <Image
                   src={require('./../../assets/images/web-dev.svg').default}
                   className="services-images"
-                  alt="Web Development Image"
-                  width={528}
-                  height={396} />
+                  alt="Web Development Image" />
               </div>
             </div>
 
