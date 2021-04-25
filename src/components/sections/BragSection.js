@@ -54,7 +54,7 @@ const BragSection = ({
         <div className={innerClasses}>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <h4 className="center-content">
-            Tired of paying the big dollars to the big top 5 consulting firms for your architecture services and only getting mixed results?
+            Tired of paying Big dollars to the Top Consulting Firms for your IT solutions and only getting mixed results?
             </h4>
           <h4 className="center-content">
             Contact us and let us help you get ahead in your IT architecture
