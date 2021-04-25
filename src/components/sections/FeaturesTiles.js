@@ -140,7 +140,7 @@ const FeaturesTiles = ({
                     PASSION
                     </h4>
                   <p className="m-0 text-sm">
-                    We’re Passionate about Digital
+                    We’re Passionate about Technology
                     </p>
                 </div>
               </div>

@@ -66,6 +66,12 @@
   }
 }
 
+@include media( '<=medium' ) {
+  .service-list {
+    margin-left: 10px;
+  }
+}
+
 .cta-action {
   background-color: white;
   padding: 10px;

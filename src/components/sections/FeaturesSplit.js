@@ -55,16 +55,16 @@ const FeaturesSplit = ({
   };
 
   const features = {
-    webApplicationDevelopment: ["Java Application Development", "Node.js Application Development", "Python Application Development", "React Application Development", "Angular Application Development", "Spring Boot Application Development", "PHP Application Development"],
-    mobileApplicationDevelopment: ["Android App Development", "iOS / iPadOS App Development", "Cross Platform App Development"],
-    cloudSolutions: ["Serverless","Kubernetes","AWS/Azure/GCP","DevOps","Integration"],
-    emergingTechnologies: ["Machine Learning Consulting", "Big Data Analytics Services", "Internet of Things (IoT) Technology", "Cloud Computing Consulting", "AR App Development"],
-    managedIt: []
+    webApplicationDevelopment: ["Java Application Development", "Node.js Application Development", "Python Application Development", "React Application Development", "Angular Application Development", "Spring Boot Application Development"],
+    mobileApplicationDevelopment: ["Android App Development", "iOS App Development",  "iPadOS App Development", "Cross Platform App Development"],
+    cloudSolutions: ["Serverless", "Kubernetes", "AWS/Azure/GCP", "DevOps", "Services Integration"],
+    emergingTechnologies: ["Machine Learning", "Big Data Analytics Services", "Internet of Things (IoT) Technology", "Cloud Computing", "Augmented Reality Solutions"],
+    managedServices: []
   }
 
   function createServiceList(list) {
     return (
-      <ul className="service-list text-color-high fw-600">
+      <ul className="service-list text-color-high fw-600 ta-l-mobile">
         {list.map((l, index) => {
           return <li key={index}>{l}</li>
         })}
@@ -94,7 +94,7 @@ const FeaturesSplit = ({
                   Think big to achieve big! Anything is possible when you partner with the leading web application development company – Animo Labs. With advanced technologies, proven methodologies and creative experts, we provide custom web application development services that facilitate business transformation.
                   </p> */}
                 <p className="m-0">
-                  As a web application development company, we understand every business has unique requirements. Our experienced developers have deep expertise in developing custom web apps for enterprises, eCommerce stores, financial organizations, start-ups, and other industries. We handle the entire web app development process, from designing, HTML, coding, programming, testing to deployment.
+                  As a leading web application development company, we understand that every business has unique requirements. Our experienced developers have deep expertise in developing custom web apps for enterprises, eCommerce stores, financial organizations, start-ups, and other industries. Animo Labs provides you with one stop solution for the entire web app development process, from designing, programming, testing to deployment and maintenance.
                   </p>
                 {createServiceList(features.webApplicationDevelopment)}
               </div>
@@ -122,7 +122,7 @@ const FeaturesSplit = ({
                   Mobile App Development
                   </h3>
                 <p className="m-0">
-                  Animo Labs is a leading mobile app development company, with expertise in mobile application strategy planning, stunning design and impeccable development services for Android, iPhone and Cross platforms. From simple to complex, we don't just build mobile apps, we build mobile experiences.
+                  Animo Labs is a leading mobile app development company, with expertise in mobile application, stunning design and impeccable development services for Android, iPhone, iPad and Cross platforms. From simple to complex, we don't just build mobile apps, we build mobile experiences.
                   </p>
                 {/* <p className="m-0">
                     Our comprehensive range of mobile app development services include everything from consulting, UX/UI designing, developing, launching to managing your app after deployment. We build apps for B2E, B2B, and B2C processes.
@@ -156,10 +156,7 @@ const FeaturesSplit = ({
                   Animo Labs is uniquely qualified to assess your business's cloud readiness and determine which IT solutions support your goals most effectively.
                   </p>
                 <p className="m-0">
-                  We are experts in working with the AWS(/Azure/GCP) platform. We can provide strategic consulting and hands-on development skills - backed up by real life experience of having been through the same journey ourselves.
-                  </p>
-                <p className="m-0">
-                  Talk to us if you need help with:
+                  We are experts in working with the AWS/Azure/GCP platform. We provide strategic consulting and entire deployment processes - backed up by real life experience of having been through the same journey ourselves.
                   </p>
                 {createServiceList(features.cloudSolutions)}
               </div>
@@ -190,7 +187,7 @@ const FeaturesSplit = ({
                   Business growth is fueled by incorporating new and emerging technologies in business processes. With customized emerging information technology services, Animo Labs has helped both small companies and large enterprises to achieve greater productivity and business agility. Let's leverage the power of digital emerging technologies together!
                   </p> */}
                 <p className="m-0">
-                  At Animo Labs, we pride ourselves on being at the forefront of IT technology and innovation. We empower our clients with ideas and strategies to leverage emerging technologies, such as IoT, Big Data, Machine Learning, Cloud Computing and more, to drive transformational growth of your business. Our emerging technology services will let you embrace opportunities, enhance customer engagement and tap into new markets.
+                  At Animo Labs, we pride ourselves on being at the forefront of IT technology and innovation. We empower our clients with ideas and strategies to leverage emerging technologies, such as IoT, Big Data, Machine Learning, Cloud Computing and more, to drive transformational growth of their business. Our emerging technology services will let you embrace opportunities, enhance customer engagement and tap into new markets.
                   </p>
                 {createServiceList(features.emergingTechnologies)}
               </div>
@@ -215,7 +212,7 @@ const FeaturesSplit = ({
                   Automated IT
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Managed IT
+                  Managed Services
                   </h3>
                 <p className="m-0">
                   Imagine having the ability to leave your office every evening, knowing that the security and continuity of your company are in good hands. Animo Labs’ IT Managed Services do just that - 24/7. 

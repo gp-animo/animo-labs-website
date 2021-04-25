@@ -57,7 +57,7 @@ const BragSection = ({
             Tired of paying the big dollars to the big top 5 consulting firms for your architecture services and only getting mixed results?
             </h4>
           <h4 className="center-content">
-            Contact us and let us show you how we can help you get ahead in your IT architecture
+            Contact us and let us help you get ahead in your IT architecture
           </h4>
         </div>
       </div>
